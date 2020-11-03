@@ -1,0 +1,70 @@
+[
+    {
+        "id": "1",
+        "img": "img/autos/fordmustang.png",
+        "nombre": "Ford Mustang GT",
+        "precio": "$21,999",
+        "año": "Año 2015",
+        "info1": "Convertible",
+        "info2": "5.0L Importado",
+        "link":"https://www.instagram.com/p/CHBptdWhp6N/"
+    },
+
+    {
+        "id": "2",
+        "img": "img/autos/f150.png",
+        "nombre": "Ford F-150",
+        "precio": "$18,999",
+        "año": "Año 2010",
+        "info1": "Motor V8",
+        "info2": " Importado",
+        "link":"https://www.instagram.com/p/CG1CQuZMxYV/"
+    },
+
+    {
+        "id": "3",
+        "img": "img/autos/huyndaiaccent.png",
+        "nombre": "Hyundai Accent",
+        "precio": "$210 Mensual",
+        "año": "Año 2019",
+        "info1": "",
+        "info2": "Importado",
+        "link":"https://www.instagram.com/p/CHHB5j_BUP4/"
+    },
+
+    {
+        "id": "4",
+        "img": "img/autos/tacoma2010.png",
+        "nombre": "Toyota Tacoma",
+        "precio": "$16,999",
+        "año": "Año 2010",
+        "info1": " SR5 V6",
+        "info2": "4x4",
+        "link":"https://www.instagram.com/p/CG8d7SrM3Z7/"
+    },
+
+    {
+        "id": "5",
+        "img": "img/autos/toyotatundra.png",
+        "nombre": "Toyota Tundra",
+        "precio": "$16,999",
+        "año": "Año 2007",
+        "info1": " CREW CAP",
+        "info2": "",
+        "link":"https://www.instagram.com/p/CGxq0Yns-kM/"
+    },
+
+    {
+        "id": "6",
+        "img": "img/autos/lexusnx.png",
+        "nombre": "Lexus NX 200T",
+        "precio": "$29,999",
+        "año": "Año 2015",
+        "info1": "F-SPORT",
+        "info2": "",
+        "link":"https://www.instagram.com/p/CGsQ3bOMY-u/"
+    }
+
+    
+
+]
