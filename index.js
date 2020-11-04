@@ -85,4 +85,9 @@ L.tileLayer(mapTiles, {
 let market = L.marker([18.39794921875,-66.16350555419922]).addTo(mymap)
 
 
+let tl = gsap.timeline({defaults : {ease: 'power1.out'}});
+
+// tl.from('.hero h1', {y: '30px', opacity: 0, duration: 2})
+
+
 
