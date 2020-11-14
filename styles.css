@@ -86,6 +86,10 @@ nav {
 	animation-fill-mode: forwards;
 }
 
+.no__anim {
+	animation-delay: 0s;
+}
+
 .logo {
 	width: clamp(50px, 20vw, 100px);
 }
@@ -97,8 +101,8 @@ nav {
 }
 
 .social__menu a {
-	width: clamp(30px, 20%, 100px);
-	margin: 2em 0;
+	width: clamp(15px, 14%, 60px);
+	margin: 1em 0;
 }
 
 .nav__menu--item {
@@ -175,6 +179,7 @@ h1 {
 	gap: 7em;
 	margin-top: 10em;
 	justify-content: center;
+	margin-bottom: 5em;
 }
 
 .catalogo__card {
@@ -300,14 +305,14 @@ span {
 
 .marcas__franja {
 	background-color: var(--red);
-	padding: 2em 0;
+	padding: 2em;
 }
 
 .marcas__grid {
 	display: grid;
 	justify-items: center;
 	align-items: center;
-	grid-template-columns: repeat(auto-fit, minmax(70px, 1fr));
+	grid-template-columns: repeat(auto-fit, minmax(70px, 100px));
 	gap: 2em;
 }
 
@@ -360,6 +365,38 @@ span {
 	position: absolute;
 	display: block;
 	bottom: 0;
+}
+
+.vender {
+	background-color: var(--red);
+	padding: 2em 0;
+	margin-bottom: 5em;
+}
+
+.vender__grid {
+	display: grid;
+	justify-items: center;
+	align-items: center;
+	gap: 2em;
+	grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+}
+
+.vender h3 {
+	color: white;
+}
+
+.vender a {
+	background-color: white;
+	border: solid 2px white;
+	color: var(--red);
+	transition: 0.5s;
+	padding: 0.3em 2em;
+	transition: 0.5s;
+}
+
+.vender a:hover {
+	background-color: transparent;
+	color: white;
 }
 
 .contacto {
@@ -427,7 +464,7 @@ form button:hover {
 
 footer {
 	background-color: var(--blackGray);
-	padding: 3em 0;
+	padding-top: 2em;
 }
 
 footer a {
@@ -472,6 +509,82 @@ footer a {
 .info__items a {
 	display: flex;
 	align-items: center;
+}
+
+/* Inicio estilos pagina contacto */
+
+.contact__header {
+	width: clamp(8em, 40%, 10em);
+	margin: 4em auto;
+}
+
+.contact__grid {
+	display: grid;
+	gap: 4em;
+	grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+	margin-bottom: 4em;
+	justify-items: center;
+	align-items: center;
+	margin-bottom: 10em;
+}
+
+.links__info--item {
+	color: white;
+	display: flex;
+	width: 90%;
+	margin: 0 auto;
+	align-items: center;
+	transition: 0.5s;
+}
+
+.links__info--item + .links__info--item {
+	margin-top: 1em;
+}
+
+.links__info--item img {
+	width: clamp(1rem, 10vw, 2rem);
+	margin-right: 1em;
+}
+
+.links__info--item p {
+	font-size: clamp(1rem, 2vw, 2rem);
+}
+
+.links__info--item:hover {
+	transform: scale(1.1);
+}
+
+.links__img {
+	background-color: var(--blackGray);
+	padding: 3em;
+	position: relative;
+	height: clamp(400px, 40vh, 500px);
+	width: clamp(300px, 30%, 400px);
+}
+
+.links__img img {
+	position: absolute;
+	bottom: 0;
+	left: 0;
+	display: block;
+}
+
+/* .map--info {
+	grid-column: 2/3;
+	grid-row: 1/2;
+}
+
+.contact__grid #map {
+	grid-column: 1/2;
+	grid-row: 1/2;
+} */
+
+.map--info h3 {
+	text-align: center;
+}
+
+.contact__map {
+	margin: 5em 0;
 }
 
 @media (max-width: 800px) {

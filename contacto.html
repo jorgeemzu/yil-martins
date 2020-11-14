@@ -1,0 +1,170 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Rubik:ital,wght@0,400;1,800&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://unpkg.com/leaflet@1.7.1/dist/leaflet.css"
+    integrity="sha512-xodZBNTC5n17Xt2atTPuE1HxjVMSvLVW9ocqUKLsCC5CXdbqCmblAshOMAS6/keqq/sMZMZ19scR4PsZChSR7A=="
+    crossorigin=""/>
+
+    <script defer src="https://unpkg.com/leaflet@1.7.1/dist/leaflet.js"
+   integrity="sha512-XQoYMqMTK8LvdxXYG3nZ448hOEQiglfqkJs1NOQV44cWnUrBc8PkAOcXy20w0vlaXaVUearIOBhiXZ5V3ynxwA=="
+   crossorigin=""></script>
+    <script src="index.js" defer></script>
+    <title>Contacto</title>
+</head>
+<body>
+    <div class="overflow">
+
+        <header id="inicio">
+            <div class="bg">
+            <div class="container">
+                <div class="header__container">
+                    <nav class="no__anim">
+                        <div class="logo">
+                            <img src="img/yil martins logo Done.png" alt="Logo">
+                        </div>
+    
+                        <div class="nav__menu">
+                            <div>
+                                <ul>
+                                    <li class="nav__menu--item" ><a href="index.html">Inicio</a></li>
+                                    <li class="nav__menu--item" ><a href="autos.html">Autos</a></li>
+                                    <li class="nav__menu--item" ><a href="contacto.html">Contacto</a></li>
+                                    <li class="nav__menu--item" ><a href="">Nosotros</a></li>
+                                </ul>
+        
+                                <div class="social__menu">
+                                    <a href="https://www.instagram.com/yilmartins/" target="_blank" ><img src="img/instagram blanco.png" alt=""></a>
+                                    <a href=" https://wa.me/17875281975" target="_blank"><img src="img/whatsapp bllanco.png" alt=""></a>
+                                </div>
+                                <div class="x__icon"></div>    
+    
+                            </div>
+                        </div>
+    
+                             <div class="social__menu--desktop">
+                            <a href="https://www.instagram.com/yilmartins/" target="_blank"><img src="img/instagram blanco.png" alt=""></a>
+                            <a href=" https://wa.me/17875281975" target="_blank"><img src="img/whatsapp bllanco.png" alt=""></a>
+                        </div> 
+                         <!-- <div class="x__icon"></div>  -->
+    
+                        <div class="hamburger__menu"></div>
+                    </nav>
+                </div>
+            </div>
+        </div>
+        
+    </header>
+    
+    <main>
+        
+            <h1 class="contact__header">Mantente en Contacto</h1>
+    
+            <div class="links">
+                <div class="container">
+                    <div class="contact__grid">
+                        <div class="links__info">
+        
+                            <a class="links__info--item" href="mailto:yiljjautosales@gmail.com" target="_blank" >
+                                <img src="img/envelope rojo.png" alt="whatsapp">
+                                <p>yiljjautosales@gmail.com </p>
+                            </a>
+        
+                            <a class="links__info--item" href=" https://wa.me/17875281975" target="_blank" >
+                                <img src="img/whatsapp rojo.png" alt="whatsapp">
+                                <p>+1 (787) 528 1275 </p>
+                            </a>
+        
+        
+                            <a class="links__info--item" href="https://www.instagram.com/yilmartins/" target="_blank" >
+                                <img src="img/instagram rojo.png" alt="whatsapp">
+                                <p>@yilmartins</p>
+                            </a>
+        
+                        </div>
+        
+                        <div class="links__img">
+                            <img src="img/portrait-call-center-agent.png" alt="">
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+    
+            <section class="contacto" id="contacto" >
+                <div class="bg">
+                    <div class="container">
+                        <h3>Envia un mensaje</h3>
+                        <form action="">
+                            <div class="nombre">
+                                <label for="nombre">Nombre</label>
+                                <input type="text" name="nonmbre" id="nombre">
+                            </div>
+    
+                            <div class="apellido">
+                                <label for="apellido">Apellido</label>
+                                <input type="email" name="napellido" id="apellido">
+                            </div>
+    
+                            <div class="mensaje">
+                                <label for="mensaje">Mensaje</label>
+                                <textarea name="mensaje" id="" cols="30" rows="10"></textarea>
+                            </div>
+    
+                            <button type="submit">Enviar</button>
+                        </form>
+                    </div>
+                </div>
+            </section>
+    
+            <div class="contact__map">
+                <div class="container">
+                    <div class="contact__grid">
+                        <div class="map--info">
+                            <h3>Visita nuestras oficinas en <span>Bayamón Puerto Rico</span></h3>
+                        </div>
+        
+                        <div id="map"></div>
+                    </div>
+
+                </div>
+            </div>
+        
+    </main>
+
+
+    <footer>
+        <div class="container">
+            <div class="flex__footer">
+                <div class="footer__info">
+                    <div class="logo">
+                        <img src="img/yil martins logo Done.png" alt="">
+                    </div>
+
+                    <div class="footer__info--items">
+                        <ul>
+                            <li class="info__items" ><a href="https://www.instagram.com/yilmartins/"><img src="img/instagram rojo.png" alt=""><p>@yilmartins</p></a></li>
+                            <li class="info__items" ><a href="https://wa.me/17875281975"><img src="img/whatsapp rojo.png" alt=""> +1 (787) 528 1975</a></li>
+                            <li class="info__items" ><a href="mailto:yiljjautosales@gmail.com" target="_blank"><img src="img/envelope rojo.png" alt=""> yiljjautosales@gmail.com</a></li>
+                        </ul>
+                    </div>
+                </div>
+
+                <div class="footer__menu">
+                    <ul>
+                        <li class="footer__menu--item" ><a href="#inicio">Inicio</a></li>
+                        <li class="footer__menu--item" ><a href="#autos">Autos</a></li>
+                        <li class="footer__menu--item" ><a href="#contacto">Contacto</a></li>
+                        <li class="footer__menu--item" ><a href="">Nosotros</a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </footer>
+    </div>
+    
+</body>
+</html>
